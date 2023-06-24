@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DS_Course
+# Target rules for targets named vector_HW
 
 # Build rule for target.
-DS_Course: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DS_Course
-.PHONY : DS_Course
+vector_HW: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector_HW
+.PHONY : vector_HW
 
 # fast build rule for target.
-DS_Course/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/build
-.PHONY : DS_Course/fast
+vector_HW/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/build
+.PHONY : vector_HW/fast
 
 #=============================================================================
 # Target rules for targets named vector
@@ -146,7 +146,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -154,7 +154,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -162,7 +162,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -173,8 +173,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DS_Course
 	@echo ... vector
+	@echo ... vector_HW
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -34,7 +34,7 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				}
 			],
@@ -47,7 +47,7 @@
 						0,
 						1
 					],
-					"name" : "DS_Course",
+					"name" : "vector_HW",
 					"targetIndexes" : 
 					[
 						0,
@@ -58,17 +58,17 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 0,
-					"id" : "DS_Course::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DS_Course-Debug-7fa38609af581673cdea.json",
-					"name" : "DS_Course",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 1,
 					"id" : "vector::@95776985c747069fcc28",
 					"jsonFile" : "target-vector-Debug-96667c558d72fbd29d3e.json",
 					"name" : "vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_HW::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_HW-Debug-3e4aa72c06dc51b0cd12.json",
+					"name" : "vector_HW",
 					"projectIndex" : 0
 				}
 			]

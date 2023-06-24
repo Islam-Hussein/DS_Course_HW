@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "DS_Course.exe"
+			"path" : "vector_HW.exe"
 		},
 		{
-			"path" : "DS_Course.pdb"
+			"path" : "vector_HW.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -69,7 +69,7 @@
 			"id" : "vector::@95776985c747069fcc28"
 		}
 	],
-	"id" : "DS_Course::@6890427a1f51a3e7e1df",
+	"id" : "vector_HW::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -99,8 +99,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "DS_Course",
-	"nameOnDisk" : "DS_Course.exe",
+	"name" : "vector_HW",
+	"nameOnDisk" : "vector_HW.exe",
 	"paths" : 
 	{
 		"build" : ".",

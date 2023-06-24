@@ -8,7 +8,7 @@ set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe" )
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libgcc -static-libstdc++")
 
 
-project(DS_Course)
+project(vector_HW)
 
 add_executable(${PROJECT_NAME} main.cpp)
 

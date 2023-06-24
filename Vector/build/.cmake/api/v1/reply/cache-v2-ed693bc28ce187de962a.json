@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DS_Course"
+			"value" : "vector_HW"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1284,6 +1284,78 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "vector_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build"
+		},
+		{
+			"name" : "vector_HW_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build"
+		},
+		{
+			"name" : "vector_HW_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "vector_HW_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CPP_Udemy_Moustafa/DS Course HW/Vector"
+		},
+		{
+			"name" : "vector_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "vector_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CPP_Udemy_Moustafa/DS Course HW/Vector"
 		}
 	],
 	"kind" : "cache",

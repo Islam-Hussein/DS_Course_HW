@@ -1,7 +1,7 @@
 [
 {
   "directory": "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build",
-  "command": "C:\\MinGW\\bin\\g++.exe    -static-libgcc -static-libstdc++ -g -o CMakeFiles\\DS_Course.dir\\main.cpp.obj -c \"D:\\CPP_Udemy_Moustafa\\DS Course HW\\Vector\\main.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe    -static-libgcc -static-libstdc++ -g -o CMakeFiles\\vector_HW.dir\\main.cpp.obj -c \"D:\\CPP_Udemy_Moustafa\\DS Course HW\\Vector\\main.cpp\"",
   "file": "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/main.cpp"
 },
 {

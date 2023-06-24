@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=DS_Course
+CMAKE_PROJECT_NAME:STATIC=vector_HW
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -240,6 +240,24 @@ DS_Course_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 DS_Course_SOURCE_DIR:STATIC=D:/CPP_Udemy_Moustafa/DS Course HW/Vector
+
+//Value Computed by CMake
+vector_BINARY_DIR:STATIC=D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build
+
+//Value Computed by CMake
+vector_HW_BINARY_DIR:STATIC=D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build
+
+//Value Computed by CMake
+vector_HW_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+vector_HW_SOURCE_DIR:STATIC=D:/CPP_Udemy_Moustafa/DS Course HW/Vector
+
+//Value Computed by CMake
+vector_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+vector_SOURCE_DIR:STATIC=D:/CPP_Udemy_Moustafa/DS Course HW/Vector
 
 
 ########################

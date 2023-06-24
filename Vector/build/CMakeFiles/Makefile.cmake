@@ -50,6 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DS_Course.dir/DependInfo.cmake"
+  "CMakeFiles/vector_HW.dir/DependInfo.cmake"
   "vector/CMakeFiles/vector.dir/DependInfo.cmake"
   )

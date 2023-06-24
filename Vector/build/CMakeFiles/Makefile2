@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DS_Course.dir/all
+all: CMakeFiles/vector_HW.dir/all
 all: vector/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: vector/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DS_Course.dir/clean
+clean: CMakeFiles/vector_HW.dir/clean
 clean: vector/clean
 .PHONY : clean
 
@@ -91,30 +91,30 @@ vector/clean: vector/CMakeFiles/vector.dir/clean
 .PHONY : vector/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DS_Course.dir
+# Target rules for target CMakeFiles/vector_HW.dir
 
 # All Build rule for target.
-CMakeFiles/DS_Course.dir/all: vector/CMakeFiles/vector.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=1,2 "Built target DS_Course"
-.PHONY : CMakeFiles/DS_Course.dir/all
+CMakeFiles/vector_HW.dir/all: vector/CMakeFiles/vector.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=3,4 "Built target vector_HW"
+.PHONY : CMakeFiles/vector_HW.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DS_Course.dir/rule: cmake_check_build_system
+CMakeFiles/vector_HW.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DS_Course.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vector_HW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 0
-.PHONY : CMakeFiles/DS_Course.dir/rule
+.PHONY : CMakeFiles/vector_HW.dir/rule
 
 # Convenience name for target.
-DS_Course: CMakeFiles/DS_Course.dir/rule
-.PHONY : DS_Course
+vector_HW: CMakeFiles/vector_HW.dir/rule
+.PHONY : vector_HW
 
 # clean rule for target.
-CMakeFiles/DS_Course.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DS_Course.dir\build.make CMakeFiles/DS_Course.dir/clean
-.PHONY : CMakeFiles/DS_Course.dir/clean
+CMakeFiles/vector_HW.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/clean
+.PHONY : CMakeFiles/vector_HW.dir/clean
 
 #=============================================================================
 # Target rules for target vector/CMakeFiles/vector.dir
@@ -123,7 +123,7 @@ CMakeFiles/DS_Course.dir/clean:
 vector/CMakeFiles/vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=3,4 "Built target vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=1,2 "Built target vector"
 .PHONY : vector/CMakeFiles/vector.dir/all
 
 # Build rule for subdir invocation for target.
