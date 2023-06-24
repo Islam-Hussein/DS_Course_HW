@@ -1,0 +1,6 @@
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/CMakeFiles/vector_HW.dir
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/CMakeFiles/edit_cache.dir
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/CMakeFiles/rebuild_cache.dir
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/vector/CMakeFiles/vector.dir
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/vector/CMakeFiles/edit_cache.dir
+D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/vector/CMakeFiles/rebuild_cache.dir
