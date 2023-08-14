@@ -8,12 +8,12 @@ set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe" )
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libgcc -static-libstdc++")
 
 
-project(Singly_LS_HW)
+project(Tree)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_directories(${PROJECT_NAME} PUBLIC Singly_LS)
+target_link_directories(${PROJECT_NAME} PUBLIC Tree)
 
-add_subdirectory(Singly_LinkedList)
+add_subdirectory(Tree)
 
-target_link_libraries(${PROJECT_NAME} Singly_LS)
+target_link_libraries(${PROJECT_NAME} tree)

@@ -28,12 +28,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
-  "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/CMakeLists.txt"
+  "D:/CPP_Udemy_Moustafa/DS Course HW/Singly_LinkedList/CMakeLists.txt"
+  "D:/CPP_Udemy_Moustafa/DS Course HW/Singly_LinkedList/Singly_LinkedList/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
-  "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/vector/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "vector/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Singly_LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/vector_HW.dir/DependInfo.cmake"
-  "vector/CMakeFiles/vector.dir/DependInfo.cmake"
+  "CMakeFiles/Singly_LS_HW.dir/DependInfo.cmake"
+  "Singly_LinkedList/CMakeFiles/Singly_LS.dir/DependInfo.cmake"
   )

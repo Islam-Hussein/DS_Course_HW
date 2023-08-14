@@ -53,94 +53,94 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Vector"
+CMAKE_SOURCE_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build"
+CMAKE_BINARY_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/vector_HW.dir/all
-all: vector/all
+all: CMakeFiles/Singly_LS_HW.dir/all
+all: Singly_LinkedList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: vector/preinstall
+preinstall: Singly_LinkedList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/vector_HW.dir/clean
-clean: vector/clean
+clean: CMakeFiles/Singly_LS_HW.dir/clean
+clean: Singly_LinkedList/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory vector
+# Directory level rules for directory Singly_LinkedList
 
 # Recursive "all" directory target.
-vector/all: vector/CMakeFiles/vector.dir/all
-.PHONY : vector/all
+Singly_LinkedList/all: Singly_LinkedList/CMakeFiles/Singly_LS.dir/all
+.PHONY : Singly_LinkedList/all
 
 # Recursive "preinstall" directory target.
-vector/preinstall:
-.PHONY : vector/preinstall
+Singly_LinkedList/preinstall:
+.PHONY : Singly_LinkedList/preinstall
 
 # Recursive "clean" directory target.
-vector/clean: vector/CMakeFiles/vector.dir/clean
-.PHONY : vector/clean
+Singly_LinkedList/clean: Singly_LinkedList/CMakeFiles/Singly_LS.dir/clean
+.PHONY : Singly_LinkedList/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/vector_HW.dir
+# Target rules for target CMakeFiles/Singly_LS_HW.dir
 
 # All Build rule for target.
-CMakeFiles/vector_HW.dir/all: vector/CMakeFiles/vector.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=3,4 "Built target vector_HW"
-.PHONY : CMakeFiles/vector_HW.dir/all
+CMakeFiles/Singly_LS_HW.dir/all: Singly_LinkedList/CMakeFiles/Singly_LS.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" --progress-num=3,4 "Built target Singly_LS_HW"
+.PHONY : CMakeFiles/Singly_LS_HW.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/vector_HW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vector_HW.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 0
-.PHONY : CMakeFiles/vector_HW.dir/rule
+CMakeFiles/Singly_LS_HW.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Singly_LS_HW.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" 0
+.PHONY : CMakeFiles/Singly_LS_HW.dir/rule
 
 # Convenience name for target.
-vector_HW: CMakeFiles/vector_HW.dir/rule
-.PHONY : vector_HW
+Singly_LS_HW: CMakeFiles/Singly_LS_HW.dir/rule
+.PHONY : Singly_LS_HW
 
 # clean rule for target.
-CMakeFiles/vector_HW.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/clean
-.PHONY : CMakeFiles/vector_HW.dir/clean
+CMakeFiles/Singly_LS_HW.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/clean
+.PHONY : CMakeFiles/Singly_LS_HW.dir/clean
 
 #=============================================================================
-# Target rules for target vector/CMakeFiles/vector.dir
+# Target rules for target Singly_LinkedList/CMakeFiles/Singly_LS.dir
 
 # All Build rule for target.
-vector/CMakeFiles/vector.dir/all:
-	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/depend
-	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" --progress-num=1,2 "Built target vector"
-.PHONY : vector/CMakeFiles/vector.dir/all
+Singly_LinkedList/CMakeFiles/Singly_LS.dir/all:
+	$(MAKE) $(MAKESILENT) -f Singly_LinkedList\CMakeFiles\Singly_LS.dir\build.make Singly_LinkedList/CMakeFiles/Singly_LS.dir/depend
+	$(MAKE) $(MAKESILENT) -f Singly_LinkedList\CMakeFiles\Singly_LS.dir\build.make Singly_LinkedList/CMakeFiles/Singly_LS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" --progress-num=1,2 "Built target Singly_LS"
+.PHONY : Singly_LinkedList/CMakeFiles/Singly_LS.dir/all
 
 # Build rule for subdir invocation for target.
-vector/CMakeFiles/vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/CMakeFiles/vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 0
-.PHONY : vector/CMakeFiles/vector.dir/rule
+Singly_LinkedList/CMakeFiles/Singly_LS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Singly_LinkedList/CMakeFiles/Singly_LS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" 0
+.PHONY : Singly_LinkedList/CMakeFiles/Singly_LS.dir/rule
 
 # Convenience name for target.
-vector: vector/CMakeFiles/vector.dir/rule
-.PHONY : vector
+Singly_LS: Singly_LinkedList/CMakeFiles/Singly_LS.dir/rule
+.PHONY : Singly_LS
 
 # clean rule for target.
-vector/CMakeFiles/vector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/clean
-.PHONY : vector/CMakeFiles/vector.dir/clean
+Singly_LinkedList/CMakeFiles/Singly_LS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Singly_LinkedList\CMakeFiles\Singly_LS.dir\build.make Singly_LinkedList/CMakeFiles/Singly_LS.dir/clean
+.PHONY : Singly_LinkedList/CMakeFiles/Singly_LS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

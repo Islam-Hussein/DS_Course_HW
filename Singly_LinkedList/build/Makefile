@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Vector"
+CMAKE_SOURCE_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build"
+CMAKE_BINARY_DIR = "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Vector\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPP_Udemy_Moustafa\DS Course HW\Singly_LinkedList\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,37 +116,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vector_HW
+# Target rules for targets named Singly_LS_HW
 
 # Build rule for target.
-vector_HW: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector_HW
-.PHONY : vector_HW
+Singly_LS_HW: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Singly_LS_HW
+.PHONY : Singly_LS_HW
 
 # fast build rule for target.
-vector_HW/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/build
-.PHONY : vector_HW/fast
+Singly_LS_HW/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/build
+.PHONY : Singly_LS_HW/fast
 
 #=============================================================================
-# Target rules for targets named vector
+# Target rules for targets named Singly_LS
 
 # Build rule for target.
-vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector
-.PHONY : vector
+Singly_LS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Singly_LS
+.PHONY : Singly_LS
 
 # fast build rule for target.
-vector/fast:
-	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\vector.dir\build.make vector/CMakeFiles/vector.dir/build
-.PHONY : vector/fast
+Singly_LS/fast:
+	$(MAKE) $(MAKESILENT) -f Singly_LinkedList\CMakeFiles\Singly_LS.dir\build.make Singly_LinkedList/CMakeFiles/Singly_LS.dir/build
+.PHONY : Singly_LS/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -154,7 +154,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -162,7 +162,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_HW.dir\build.make CMakeFiles/vector_HW.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Singly_LS_HW.dir\build.make CMakeFiles/Singly_LS_HW.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -173,8 +173,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... vector
-	@echo ... vector_HW
+	@echo ... Singly_LS
+	@echo ... Singly_LS_HW
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

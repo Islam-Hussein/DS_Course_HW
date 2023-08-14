@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP_Udemy_Moustafa/DS Course HW/Vector
+# Install script for directory: D:/CPP_Udemy_Moustafa/DS Course HW/Singly_LinkedList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/DS_Course")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Singly_LS_HW")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/vector/cmake_install.cmake")
+  include("D:/CPP_Udemy_Moustafa/DS Course HW/Singly_LinkedList/build/Singly_LinkedList/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CPP_Udemy_Moustafa/DS Course HW/Vector/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CPP_Udemy_Moustafa/DS Course HW/Singly_LinkedList/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
