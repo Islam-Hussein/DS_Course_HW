@@ -10,5 +10,7 @@
         "optional": "cpp",
         "system_error": "cpp",
         "type_traits": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "D:/CPP_Udemy_Moustafa/DS Course HW/Binary_Tree",
+    "C_Cpp.default.compilerPath": "C:\\VSARM\\mingw\\mingw32\\bin\\g++.exe"
 }

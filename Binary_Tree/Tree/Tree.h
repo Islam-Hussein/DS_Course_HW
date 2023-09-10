@@ -44,6 +44,14 @@ public:
 
     bool is_fullBT(void);
 
+    int count(TreeNode * root);
+
+    bool is_Perfect(TreeNode * root);
+
+    bool is_BTPerfect(void);
+
+    int maxDepth(TreeNode * root);
+
     int TreeSum(TreeNode * root);
 
     int TreeSum(void);

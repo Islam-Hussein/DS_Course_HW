@@ -15,7 +15,47 @@ void BinaryTree::_print_inorder(void)
     _print_inorder(current->right);
 }
 
+int BinaryTree::count(TreeNode * root)
+{
+    if(!root)
+        return 0;
+    
+    return count(root->right) + count(root->left) + 1;
+}
 
+bool BinaryTree::is_BTPerfect(void)
+{
+    TreeNode * current = root;
+
+    return is_Perfect(current);
+}
+
+bool BinaryTree::is_Perfect(TreeNode * root)
+{
+    if(!root)   
+        return true;
+
+    if(is_leaf(root))
+        return true;
+    
+    if(count(root->left) != count(root->right))
+        return false;
+
+    return is_Perfect(root->left) && is_Perfect(root->right);
+}
+
+
+
+int BinaryTree::maxDepth(TreeNode * root)
+{
+    if(!root)
+        return 0;
+    
+    int l = maxDepth(root->left);
+    int r = maxDepth(root->right);
+
+    return max(l , r) + 1;
+}
 
 int BinaryTree::maximumValue(TreeNode * current)
 {

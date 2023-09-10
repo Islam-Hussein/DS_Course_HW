@@ -79,17 +79,24 @@ int main()
     */
 
 	BinaryTree tree(1);
-	tree.add( { 2, 4, 7 }, { 'L', 'L', 'L' });
-	tree.add( { 2, 4, 8 }, { 'L', 'L', 'R' });
-	tree.add( { 2, 5, 9 }, { 'L', 'R', 'R' });
-	tree.add( { 3, 6, 10 }, { 'R', 'R', 'L' });
+	//tree.add( { 2, 4, 7 }, { 'L', 'L', 'L' });
+	//tree.add( { 2, 4, 8 }, { 'L', 'L', 'R' });
+	//tree.add( { 2, 5, 9 }, { 'L', 'R', 'R' });
+	//tree.add( { 3, 6, 10 }, { 'R', 'R', 'L' });
 
+    tree.add( { 2, 4 }, { 'L', 'L'});
+    tree.add( { 2, 5 }, { 'L', 'R' });
+
+    tree.add( { 2, 4}, { 'R', 'L' });
+    tree.add( { 2, 5 }, { 'R', 'R' });
+    
     tree._print_inorder();    
 
-    cout << "\n";
-    cout << tree._maximumValue() << "\n";
+    cout << "\n" << tree._maximumValue() << "\n";
 
     cout << "\n Tree Sum = "<< tree.TreeSum()<< endl;
+
+    cout << "Is Tree Perfect : " << tree.is_BTPerfect()<< endl;
 
     
     //cout << root->right->left->data << "\n" ;
