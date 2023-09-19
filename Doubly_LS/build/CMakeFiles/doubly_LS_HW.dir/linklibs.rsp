@@ -1,0 +1,1 @@
+  -L"D:/CPP_Udemy_Moustafa/DS Course HW/Doubly_LS/Doubly_LS"  Doubly_LS/libdoubly_LS.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libSingly_LS.a CMakeFiles/Singly_LS.dir/Single_LS.cpp.obj
+C:\MinGW\bin\ranlib.exe libSingly_LS.a

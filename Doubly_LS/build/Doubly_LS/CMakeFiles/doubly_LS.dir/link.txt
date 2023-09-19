@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libdoubly_LS.a CMakeFiles/doubly_LS.dir/doubly_LS.cpp.obj
+C:\MinGW\bin\ranlib.exe libdoubly_LS.a
