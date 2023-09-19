@@ -37,6 +37,10 @@ public:
 
     void delete_node(Node* node);
 
+    void delete_last_node(void);
+
+    void swap_pairs(void);
+
     void Insert_end(int val);
 
     void Insert_front(int val);
@@ -47,8 +51,11 @@ public:
 
     void delete_with_key(int val);
 
+    void delete_even_positions(void);
 
     int search(int val);
+
+    void reverse(void);
 
     Node* get_nth(int n);
 
