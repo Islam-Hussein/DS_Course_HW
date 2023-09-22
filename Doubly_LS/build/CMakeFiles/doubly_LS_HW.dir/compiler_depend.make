@@ -118,10 +118,31 @@ CMakeFiles/doubly_LS_HW.dir/main.cpp.obj: D:/CPP_Udemy_Moustafa/DS\ Course\ HW/D
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_ios.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/istream \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/vector \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_construct.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_uninitialized.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_vector.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_bvector.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/vector.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cassert \
+  C:/MinGW/include/assert.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/algorithm \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/utility \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_relops.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_algo.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/algorithmfwd.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_heap.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits
 
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/clocale:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_heap.h:
 
 D:/CPP_Udemy_Moustafa/DS\ Course\ HW/Doubly_LS/main.cpp:
 
@@ -130,6 +151,8 @@ C:/MinGW/include/conio.h:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/ctype_inline.h:
 
 D:/CPP_Udemy_Moustafa/DS\ Course\ HW/Doubly_LS/Doubly_LS/doubly_LS.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/vector.tcc:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/new_allocator.h:
 
@@ -217,6 +240,8 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/typeinfo:
 
 C:/MinGW/include/sys/stat.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_algo.h:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/nested_exception.h:
 
 C:/MinGW/include/io.h:
@@ -232,6 +257,8 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/exception_defines.h:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_pair.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/cxxabi_init_exception.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cassert:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hash_bytes.h:
 
@@ -342,3 +369,33 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ostream.tcc:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/istream:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/vector:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_construct.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_vector.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_bvector.h:
+
+C:/MinGW/include/assert.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/algorithm:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/utility:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_relops.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/algorithmfwd.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_tempbuf.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits:

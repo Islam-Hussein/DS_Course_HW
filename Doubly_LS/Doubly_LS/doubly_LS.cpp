@@ -36,7 +36,7 @@ void LinkedList::insert_front(int val)
     }        
     else
     {
-        link(head , node);
+        link(node , head);
         head = node;
     }
 }
@@ -188,3 +188,109 @@ void LinkedList::debug_remove_node(Node* node)
     else
         debug_data.erase(it);
 }
+
+
+void LinkedList::print(void) 
+{
+    for (Node* cur = head; cur; cur = cur->next)
+        std::cout << cur->data << " ";
+    std::cout << "\n";
+}
+
+
+                    /*              HOMEWORK            */
+
+
+void LinkedList::delete_all_nodes_with_key(int value)
+{
+    if(!length)
+    {
+        return;
+    }
+    else if(head->data == value)
+    {
+        LinkedList::delete_front();
+    }    
+    else
+    {
+        for(Node * curr = head ; curr ; curr = curr->next)
+        {
+            if(curr->data == value)
+            {
+
+                curr = LinkedList::delete_and_link(curr);
+                if(!curr->next)
+                {
+                    tail = curr;
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+
+void LinkedList::delete_even_nodes(void)
+{
+    if(length <= 1)
+    {
+        return;
+    }
+
+    int cnt = 1;
+    for(Node * curr = head ; curr ; curr = curr->next)
+    {       
+        if(cnt % 2 == 0)
+        {
+            curr = LinkedList::delete_and_link(curr);
+            if(!curr->next)
+            {
+                tail = curr;
+            }
+        }
+        
+        ++cnt;
+    }
+}
+
+void LinkedList::delete_odd_nodes(void)
+{
+    LinkedList::insert_front(-1);
+    LinkedList::delete_even_nodes();
+    LinkedList::delete_front();
+    
+}
+
+void LinkedList::print_length(void)
+{
+    std::cout << "Length = " << length << "\n";
+}
+
+
+bool LinkedList::is_palindrome(void)
+{
+    std::cout << "Function palindrome used!\n";
+
+    if(length <= 1)
+    {
+        return true; 
+    }
+
+    int len = length / 2;
+    Node * start = head; 
+    Node * end = tail;
+
+    while(len--)
+    {
+        if(start->data != end->data)
+        {
+            return false;
+        }
+        start = start->next;
+        end = end->prev;
+    }
+    return true;
+}
+

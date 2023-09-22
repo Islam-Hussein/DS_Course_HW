@@ -2,8 +2,8 @@
 #define DOUBLY_LS_H_
 
 
-#include "iostream"
-#include "vector"
+#include <iostream>
+#include <vector>
 #include <cassert>
 #include <sstream>
 #include <algorithm>
@@ -24,7 +24,7 @@ struct Node
 
     ~Node()
     {
-        std::cout << "Node with value " << data << " at address : " << this << "Destroyed!\n";
+        std::cout << "Node with value " << data << " at address : " << this << " Destroyed!\n";
     }
 
 };
@@ -34,9 +34,9 @@ class LinkedList
 private:
     Node * head { };
     Node * tail { };
-    int length;
+    int length  { };
     
-    vector<Node*> debug_data;	// add/remove nodes you use
+    std::vector<Node*> debug_data;	// add/remove nodes you use
 
 public:
 
@@ -64,7 +64,18 @@ public:
 
     void insert_sorted(int val);
 
+    void print(void);
+
+    void print_length(void);
+
+    //Homework
+    void delete_all_nodes_with_key(int value);
+
+    void delete_even_nodes(void);
+
+    void delete_odd_nodes(void);
     
+    bool is_palindrome(void);
 
 };
 

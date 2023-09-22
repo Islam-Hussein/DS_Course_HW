@@ -105,4 +105,23 @@ Doubly_LS/CMakeFiles/doubly_LS.dir/doubly_LS.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\vector \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_construct.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_uninitialized.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cassert \
+ c:\mingw\include\assert.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\sstream.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\algorithm \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\utility \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_relops.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_algo.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\algorithmfwd.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_heap.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_tempbuf.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\uniform_int_dist.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\limits
