@@ -11,7 +11,7 @@ int main()
     Ls.insert_front(20);
     Ls.insert_front(30);
     Ls.insert_front(20);
-    Ls.insert_front(10);
+    //Ls.insert_front(10);
     /*
     Ls.insert_front(40);
     Ls.insert_front(50);
@@ -35,9 +35,16 @@ int main()
     //std::cout << "After deletion of All values : 40.\n";
     //Ls.print();
 
+
+    /*
     Ls.print_length();
     bool palindrome = Ls.is_palindrome();
     std::cout << "Is this Linked List Palindrome : " << palindrome << "\n";
+    */
 
+    //std::vector<int> res = Ls.find_middle();
+    std::vector<int> res = Ls.find_middle_using_fast_pointer();
+    for (auto it = res.begin(); it != res.end(); it++)
+        std::cout << *it << " ";
 
 }

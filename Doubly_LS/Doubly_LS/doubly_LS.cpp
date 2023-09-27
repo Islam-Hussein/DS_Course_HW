@@ -294,3 +294,60 @@ bool LinkedList::is_palindrome(void)
     return true;
 }
 
+
+std::vector<int> LinkedList::find_middle(void)
+{
+    std::vector<int> result;
+
+    Node *start = head;
+    Node *end   = tail;
+
+    for(start ;;start = start->next , end = end->prev)
+    {
+        if(start == end)
+        {
+            result.push_back(start->data);
+            break;
+        }
+        if(start->next == end && end->prev == start)
+        {
+            result.push_back(start->data);
+            result.push_back(end->data);
+
+            break;
+        }
+    }
+
+    return result;
+}
+
+std::vector<int> LinkedList::find_middle_using_fast_pointer(void)
+{
+    std::vector<int> result;
+
+    Node *slow_pointer =  head;
+    Node *fast_pointer =  head;
+
+    while(fast_pointer->next != nullptr)
+    {
+        if(!fast_pointer->next->next)
+        {
+            //std::cout<< slow_pointer->data << " " << slow_pointer->next->data << "\n";
+            result.push_back(slow_pointer->data);
+            result.push_back(slow_pointer->next->data);
+
+            break;
+        }
+
+        slow_pointer = slow_pointer->next;
+        fast_pointer = fast_pointer->next->next; 
+    }
+
+    if(!fast_pointer->next)
+    {
+        //std::cout<< slow_pointer->data << "\n";
+        result.push_back(slow_pointer->data);
+    }
+
+    return result;
+}

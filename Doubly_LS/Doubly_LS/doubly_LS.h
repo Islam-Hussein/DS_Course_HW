@@ -77,6 +77,13 @@ public:
     
     bool is_palindrome(void);
 
+
+    //Medium Homework
+    std::vector<int> find_middle(void);
+
+    std::vector<int> find_middle_using_fast_pointer(void);
+
+
 };
 
 void link(Node * first , Node * second);
