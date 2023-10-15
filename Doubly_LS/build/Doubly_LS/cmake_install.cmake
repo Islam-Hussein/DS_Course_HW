@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP_Udemy_Moustafa/DS Course HW/Doubly_LS/Doubly_LS
+# Install script for directory: D:/DS Kurs Hausaufgaben/Doubly_LS/Doubly_LS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/doubly_LS")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/doubly_LS_HW")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

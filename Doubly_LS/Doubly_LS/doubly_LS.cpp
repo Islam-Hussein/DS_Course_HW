@@ -351,3 +351,81 @@ std::vector<int> LinkedList::find_middle_using_fast_pointer(void)
 
     return result;
 }
+
+
+
+
+void LinkedList::swap_kth(int k)
+{
+    if(k > length)
+    {
+        return;
+    }
+    int kth_back = length - k + 1;
+
+    if(k == kth_back)
+    {
+        return; //same node
+    }
+
+    Node * first = LinkedList::get_nth(k);
+    Node * last = LinkedList::get_nth(kth_back);
+
+    Node * first_prv = first->prev;
+    Node * first_next = first->next;
+
+    Node * last_prv = last->prev;
+    Node * last_next = last->next;
+
+    if(k + 1 == kth_back)
+    {
+        link(first_prv , last);
+        link(last, first);
+        link(first, last_next);
+    }
+    else
+    {
+        link(first_prv , last);
+        link(last, first_next);
+
+        link(last_prv, first);
+        link(first , last_next);  
+    }
+    if(k == 1)
+    {
+        std::swap(head , tail);
+    }
+
+
+}
+
+Node * LinkedList::get_nth(int k)
+{
+    if(k > length)
+    {
+        std::cout << "There is no such node!\n";
+        return nullptr;
+    }
+
+    int cnt = 1;
+    for(Node * curr = head ; curr ; curr = curr->next)
+    {
+        if(cnt == k)
+        {
+            return curr;
+        }
+
+        cnt++;
+    }
+}
+
+void LinkedList::reverse(void)
+{
+    int target_k = length / 2;
+
+    while(target_k)
+    {
+        LinkedList::swap_kth(target_k);
+        target_k--;
+    }
+}

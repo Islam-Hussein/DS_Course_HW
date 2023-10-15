@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP_Udemy_Moustafa/DS Course HW/Doubly_LS
+# Install script for directory: D:/DS Kurs Hausaufgaben/Doubly_LS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/doubly_LS")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/doubly_LS_HW")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/CPP_Udemy_Moustafa/DS Course HW/Doubly_LS/build/Doubly_LS/cmake_install.cmake")
+  include("D:/DS Kurs Hausaufgaben/Doubly_LS/build/Doubly_LS/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CPP_Udemy_Moustafa/DS Course HW/Doubly_LS/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/DS Kurs Hausaufgaben/Doubly_LS/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -56,6 +56,8 @@ public:
 
     Node * delete_and_link(Node * node);
 
+    Node * get_nth(int k);
+
     void delete_node_with_key(int val);
 
     void insert_front(int val);
@@ -83,6 +85,9 @@ public:
 
     std::vector<int> find_middle_using_fast_pointer(void);
 
+    void swap_kth(int k);
+
+    void reverse(void);
 
 };
 
