@@ -1,0 +1,6 @@
+F:/DS Kurs Hausaufgaben/Queuee/build/CMakeFiles/queuee_HW.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/CMakeFiles/edit_cache.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/CMakeFiles/rebuild_cache.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/queuee.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/edit_cache.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/rebuild_cache.dir
