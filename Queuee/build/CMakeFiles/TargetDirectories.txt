@@ -4,3 +4,6 @@ F:/DS Kurs Hausaufgaben/Queuee/build/CMakeFiles/rebuild_cache.dir
 F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/queuee.dir
 F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/edit_cache.dir
 F:/DS Kurs Hausaufgaben/Queuee/build/queuee/CMakeFiles/rebuild_cache.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/LinkedList/CMakeFiles/Singly_LS.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/LinkedList/CMakeFiles/edit_cache.dir
+F:/DS Kurs Hausaufgaben/Queuee/build/LinkedList/CMakeFiles/rebuild_cache.dir

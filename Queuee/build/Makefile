@@ -141,6 +141,19 @@ queuee/fast:
 	$(MAKE) $(MAKESILENT) -f queuee\CMakeFiles\queuee.dir\build.make queuee/CMakeFiles/queuee.dir/build
 .PHONY : queuee/fast
 
+#=============================================================================
+# Target rules for targets named Singly_LS
+
+# Build rule for target.
+Singly_LS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Singly_LS
+.PHONY : Singly_LS
+
+# fast build rule for target.
+Singly_LS/fast:
+	$(MAKE) $(MAKESILENT) -f LinkedList\CMakeFiles\Singly_LS.dir\build.make LinkedList/CMakeFiles/Singly_LS.dir/build
+.PHONY : Singly_LS/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -173,6 +186,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Singly_LS
 	@echo ... queuee
 	@echo ... queuee_HW
 	@echo ... main.obj

@@ -106,6 +106,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "F:/DS Kurs Hausaufgaben/Queuee/CMakeLists.txt"
+  "F:/DS Kurs Hausaufgaben/Queuee/LinkedList/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
@@ -129,10 +130,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "queuee/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/queuee_HW.dir/DependInfo.cmake"
   "queuee/CMakeFiles/queuee.dir/DependInfo.cmake"
+  "LinkedList/CMakeFiles/Singly_LS.dir/DependInfo.cmake"
   )

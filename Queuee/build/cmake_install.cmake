@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("F:/DS Kurs Hausaufgaben/Queuee/build/queuee/cmake_install.cmake")
+  include("F:/DS Kurs Hausaufgaben/Queuee/build/LinkedList/cmake_install.cmake")
 
 endif()
 

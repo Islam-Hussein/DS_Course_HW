@@ -12,8 +12,9 @@ project(queuee_HW)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_directories(${PROJECT_NAME} PUBLIC queuee)
+target_link_directories(${PROJECT_NAME} PUBLIC queuee LinkedList)
 
 add_subdirectory(queuee)
+add_subdirectory(LinkedList)
 
-target_link_libraries(${PROJECT_NAME} queuee)
+target_link_libraries(${PROJECT_NAME} queuee Singly_LS)

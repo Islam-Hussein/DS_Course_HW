@@ -64,16 +64,34 @@ CMAKE_BINARY_DIR = "F:\DS Kurs Hausaufgaben\Queuee\build"
 # The main recursive "all" target.
 all: CMakeFiles/queuee_HW.dir/all
 all: queuee/all
+all: LinkedList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: queuee/preinstall
+preinstall: LinkedList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/queuee_HW.dir/clean
 clean: queuee/clean
+clean: LinkedList/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinkedList
+
+# Recursive "all" directory target.
+LinkedList/all: LinkedList/CMakeFiles/Singly_LS.dir/all
+.PHONY : LinkedList/all
+
+# Recursive "preinstall" directory target.
+LinkedList/preinstall:
+.PHONY : LinkedList/preinstall
+
+# Recursive "clean" directory target.
+LinkedList/clean: LinkedList/CMakeFiles/Singly_LS.dir/clean
+.PHONY : LinkedList/clean
 
 #=============================================================================
 # Directory level rules for directory queuee
@@ -95,14 +113,15 @@ queuee/clean: queuee/CMakeFiles/queuee.dir/clean
 
 # All Build rule for target.
 CMakeFiles/queuee_HW.dir/all: queuee/CMakeFiles/queuee.dir/all
+CMakeFiles/queuee_HW.dir/all: LinkedList/CMakeFiles/Singly_LS.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queuee_HW.dir\build.make CMakeFiles/queuee_HW.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queuee_HW.dir\build.make CMakeFiles/queuee_HW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" --progress-num=3,4 "Built target queuee_HW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" --progress-num=5,6 "Built target queuee_HW"
 .PHONY : CMakeFiles/queuee_HW.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/queuee_HW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/queuee_HW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" 0
 .PHONY : CMakeFiles/queuee_HW.dir/rule
@@ -123,7 +142,7 @@ CMakeFiles/queuee_HW.dir/clean:
 queuee/CMakeFiles/queuee.dir/all:
 	$(MAKE) $(MAKESILENT) -f queuee\CMakeFiles\queuee.dir\build.make queuee/CMakeFiles/queuee.dir/depend
 	$(MAKE) $(MAKESILENT) -f queuee\CMakeFiles\queuee.dir\build.make queuee/CMakeFiles/queuee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" --progress-num=1,2 "Built target queuee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" --progress-num=3,4 "Built target queuee"
 .PHONY : queuee/CMakeFiles/queuee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,6 +160,32 @@ queuee: queuee/CMakeFiles/queuee.dir/rule
 queuee/CMakeFiles/queuee.dir/clean:
 	$(MAKE) $(MAKESILENT) -f queuee\CMakeFiles\queuee.dir\build.make queuee/CMakeFiles/queuee.dir/clean
 .PHONY : queuee/CMakeFiles/queuee.dir/clean
+
+#=============================================================================
+# Target rules for target LinkedList/CMakeFiles/Singly_LS.dir
+
+# All Build rule for target.
+LinkedList/CMakeFiles/Singly_LS.dir/all:
+	$(MAKE) $(MAKESILENT) -f LinkedList\CMakeFiles\Singly_LS.dir\build.make LinkedList/CMakeFiles/Singly_LS.dir/depend
+	$(MAKE) $(MAKESILENT) -f LinkedList\CMakeFiles\Singly_LS.dir\build.make LinkedList/CMakeFiles/Singly_LS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" --progress-num=1,2 "Built target Singly_LS"
+.PHONY : LinkedList/CMakeFiles/Singly_LS.dir/all
+
+# Build rule for subdir invocation for target.
+LinkedList/CMakeFiles/Singly_LS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkedList/CMakeFiles/Singly_LS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\DS Kurs Hausaufgaben\Queuee\build\CMakeFiles" 0
+.PHONY : LinkedList/CMakeFiles/Singly_LS.dir/rule
+
+# Convenience name for target.
+Singly_LS: LinkedList/CMakeFiles/Singly_LS.dir/rule
+.PHONY : Singly_LS
+
+# clean rule for target.
+LinkedList/CMakeFiles/Singly_LS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f LinkedList\CMakeFiles\Singly_LS.dir\build.make LinkedList/CMakeFiles/Singly_LS.dir/clean
+.PHONY : LinkedList/CMakeFiles/Singly_LS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -92,6 +92,7 @@ queuee_HW_EXTERNAL_OBJECTS =
 queuee_HW.exe: CMakeFiles/queuee_HW.dir/main.cpp.obj
 queuee_HW.exe: CMakeFiles/queuee_HW.dir/build.make
 queuee_HW.exe: queuee/libqueuee.a
+queuee_HW.exe: LinkedList/libSingly_LS.a
 queuee_HW.exe: CMakeFiles/queuee_HW.dir/linklibs.rsp
 queuee_HW.exe: CMakeFiles/queuee_HW.dir/objects1.rsp
 queuee_HW.exe: CMakeFiles/queuee_HW.dir/link.txt
